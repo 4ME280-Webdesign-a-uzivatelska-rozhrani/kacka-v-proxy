@@ -1,6 +1,5 @@
-name = "wishlist-worker"
-main = "worker.js"
-compatibility_date = "2025-05-26"
-route = "wishlist.example.com/*"
-zone_id = "tvůj_zone_id"
-account_id = "tvůj_account_id"
+name = "jsonbin-proxy"
+main = "src/index.js"
+type = "javascript"
+
+account_id = "${{ secrets.CF_ACCOUNT_ID }}"   # nastaví se v GitHub Secrets
